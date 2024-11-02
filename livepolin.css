@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #040415;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  .auth-container, .poll-options, .social-login, .analytics-dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .auth-section, .poll-creation-section, .participation-section, .results-section, .notifications-section, .analytics-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .auth-container div {
+    width: 45%;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #5a67d8;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4c51bf;
+  }
+  
+  .vote-btn, .create-poll-btn {
+    background-color: #48bb78;
+    color: white;
+  }
+  
+  .vote-btn:hover, .create-poll-btn:hover {
+    background-color: #38a169;
+  }
+  
+  .add-option {
+    background-color: #319795;
+    color: white;
+  }
+  
+  .add-option:hover {
+    background-color: #2c7a7b;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .facebook-btn {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .poll-card {
+    background-color: #edf2f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .results-section .chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .notification {
+    background-color: #fefcbf;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .analytics-card {
+    background-color: #f7fafc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
